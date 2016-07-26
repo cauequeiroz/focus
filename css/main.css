@@ -52,9 +52,9 @@ p {
 }
 .logo {
 	text-indent: -9999px;
-	width: 238px;
+	width: 300px;
 	height: 68px;
-	background: url('../img/logo.png') no-repeat center center;
+	background: url('../img/logo.png') no-repeat left center;
 	margin: 100px auto 50px;
 }
 
@@ -87,7 +87,7 @@ p {
 	width: 100%;
 	background: #e3e3e3;
 	padding-bottom: 55px;
-	margin-top: 25px;
+	margin-top: 50px;
 }
 .get-app .info {
 	float: left;
