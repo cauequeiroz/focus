@@ -25,6 +25,9 @@ h3 {
 	margin: 55px 0 15px;
 	font-weight: 600;
 }
+p {
+	line-height: 1.6;
+}
 
 .container {
 	width: 1200px;
@@ -60,12 +63,14 @@ h3 {
   Features
   ========================================
 */
+.feature {
+	height: 465px;
+}
 .feature .col-1-3:first-child {
 	padding-left: 60px;
 }
 .feature p {
 	width: 310px;
-	line-height: 1.6;
 }
 .feature img {
 	margin-top: -294px;
@@ -78,5 +83,40 @@ h3 {
 */
 .get-app {
 	clear: both;
-
+	overflow: auto;
+	width: 100%;
+	background: #e3e3e3;
+	padding-bottom: 55px;
+	margin-top: 25px;
+}
+.get-app .info {
+	float: left;
+}
+.get-app p {
+	width: 540px;
+}
+.get-app li {
+	display: inline-block;
+	margin: 20px 20px 0 0;
+	width: 68px;
+	background: #c5c5c5;
+	text-align: center;
+	border-radius: 100%;
+	transition: all .2s ease;
+}
+.get-app li:hover {
+	background: #222;
+}
+.get-app li a {
+	display: block;
+	padding: 15px 0;
+	border-radius: 100%;
+}
+.get-app path {
+	fill: #fff;
+}
+.get-app .video {
+	float: right;
+	width: 500px;
+	margin-top: 55px;
 }
