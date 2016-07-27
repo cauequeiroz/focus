@@ -130,3 +130,33 @@ p {
 	width: 500px;
 	margin-top: 55px;
 }
+
+/*
+  ========================================
+  Review
+  ========================================
+*/
+.review {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+.review blockquote {
+	font: 24px 'Raleway', 'Open Sans', Arial, sans-serif;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+.review cite {
+	display: block;
+	margin-top: 20px;
+	font: 14px 'Open Sans', Arial, sans-serif;
+}
+.review cite strong {
+	font-weight: bold;
+}
+.review .user-grid {
+	width: 100%;
+	height: 320px;
+	background: url('../img/user-grid.png') repeat-x;
+}
