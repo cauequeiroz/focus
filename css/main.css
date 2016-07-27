@@ -11,6 +11,11 @@ body {
 	background: #f4f4f4;
 }
 
+/*
+  ========================================
+  Typography
+  ========================================
+*/
 h2,
 h3 {
 	font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
@@ -29,6 +34,11 @@ p {
 	line-height: 1.6;
 }
 
+/*
+  ========================================
+  Grid
+  ========================================
+*/
 .container {
 	width: 1200px;
 	margin: 0 auto;
